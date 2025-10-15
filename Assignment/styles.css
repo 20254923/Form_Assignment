@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: grey; 
+    color: gold; 
+   
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gold; 
+    background-color: black; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white; 
+}
+
+input, select, textarea, button {
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white; 
+    border: 1px solid gold; 
+}
+
+button {
+    margin-top: 15px;
+    background-color: gold; 
+    color: black;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid gold; 
+    }
+    
+    label {
+        font-size: 0.9em;
+        color: white; 
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 10px;
+        background-color: gold; 
+        color: black;
+    }
+}
